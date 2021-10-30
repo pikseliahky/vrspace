@@ -136,7 +136,7 @@
           </execution>
         </executions>
         <configuration>
-          <additionalJOption>--frames</additionalJOption>
+          <additionalJOption>false</additionalJOption>
         </configuration>
       </plugin>
 		</plugins>
