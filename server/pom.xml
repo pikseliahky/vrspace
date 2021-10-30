@@ -152,8 +152,9 @@
       <configuration>
       <processTypes>
         <web>java -jar target/server-0.2.3-SNAPSHOT.jar</web>
-  </processTypes>
-</configuration>
+      </processTypes>
+     <appName>next3d</appName>	      
+     </configuration>
 </plugin>
  </plugins>
 </build>
