@@ -139,7 +139,17 @@
           <additionalJOption>false</additionalJOption>
         </configuration>
       </plugin>
-		</plugins>
-	</build>
+     <plugin>
+      <groupId>com.heroku.sdk</groupId>
+      <artifactId>heroku-maven-plugin</artifactId>
+      <version>3.0.3</version>
+      <configuration>
+      <processTypes>
+        <web>java -jar target/server-0.2.3-SNAPSHOT.jar</web>
+  </processTypes>
+</configuration>
+</plugin>
+ </plugins>
+</build>
 
 </project>
